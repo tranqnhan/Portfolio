@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-image: url("assets/background1.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.container {
+    flex: 0 0 50%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.wrapper {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.banner1 {
+    background-image: url("assets/background2.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    flex: 0 0 25%;
+}
+
+.banner2 {
+    background-image: url("assets/background3.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    flex: 0 0 25%;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.project {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+    background-image: url("assets/background4.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
