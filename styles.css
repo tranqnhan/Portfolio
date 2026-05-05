@@ -64,9 +64,17 @@ h2 {
 }
 
 .project {
-    background: #9b2226;
-    padding: 15px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background: #40E0D0;
+    padding: 20px;
+    color: black;
+}
+
+.project h3 {
+    margin-top: 0px;
+}
+
+.project a {
+    color: blue;
 }
 
 footer {
