@@ -7,7 +7,6 @@ body {
 }
 
 header {
-    background-image: url("assets/background1.gif");
     background-repeat: no-repeat;
     background-position: center;
     color: #fff;
@@ -35,14 +34,14 @@ nav a {
 }
 
 .banner1 {
-    background-image: url("assets/background2.gif");
+    /* background-image: url("assets/background2.gif"); */
     background-repeat: no-repeat;
     background-position: center;
     flex: 0 0 25%;
 }
 
 .banner2 {
-    background-image: url("assets/background3.gif");
+    /* background-image: url("assets/background3.gif"); */
     background-repeat: no-repeat;
     background-position: center;
     flex: 0 0 25%;
@@ -78,7 +77,6 @@ h2 {
 }
 
 footer {
-    background-image: url("assets/background4.gif");
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
