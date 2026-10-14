@@ -1,5 +1,5 @@
 function inject_html(html_to_inject_file, at_element_id) {
-    fetch(html_to_inject_file)
+    fetch("src/html/" + html_to_inject_file)
         .then(response => {
             if (!response.ok) {
                 throw new Error("Failed to load " + html_to_inject_file);
