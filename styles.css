@@ -1,24 +1,30 @@
+:root {
+  --color-black: #0f1b26;
+  --color-red: #dd5639;
+  --color-blue: #20a5a6;
+  --color-white: #f5e8d1;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     line-height: 1.6;
-    background: #001219;
-    color: #fff;
+    background: var(--color-black);
+    color: var(--color-white);
 }
 
 header {
-    color: #fff;
-    padding: 20px 0;
+    color: var(--color-white);
     text-align: center;
 }
 
 nav a {
-    color: #fff;
+    color: var(--color-white);
     margin: 0 15px;
     text-decoration: none;
 }
 
-.main_content {
+.mainContent {
     flex: 0 0 50%;
     max-width: 800px;
     margin: auto;
@@ -29,12 +35,12 @@ section {
 }
 
 h2 {
-    border-bottom: 2px solid #ddd;
+    border-bottom: 2px solid var(--color-white);
     padding-bottom: 10px;
 }
 
 a {
-    color: #e9d8a6;
+    color: var(--color-white);
 }
 
 
@@ -45,15 +51,15 @@ a {
 }
 
 .project {
-    background: #40E0D0;
+    background: var(--color-blue);
     padding: 20px;
-    color: black;
+    color: var(--color-black);
  
     h3 {
         margin-top: 0px;
     }
  
     a {
-        color: blue;
+        color: var(--color-red);
     }
 }
