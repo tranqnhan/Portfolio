@@ -4,5 +4,6 @@
 *.fdb_latexmk
 *.gz
 *.tex
+*.out
 transcript.pdf
 portfolio-archive/*
