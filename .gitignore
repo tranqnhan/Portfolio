@@ -1,0 +1,10 @@
+*.log
+*.fls
+*.aux
+*.fdb_latexmk
+*.gz
+*.tex
+*.out
+*.pdf
+portfolio-archive/*
+*.bash
