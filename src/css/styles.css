@@ -13,6 +13,10 @@ body {
     color: var(--color-white);
 }
 
+h1 {
+    margin-bottom: 0;
+}
+
 header {
     color: var(--color-white);
     text-align: center;
@@ -38,34 +42,57 @@ a {
     color: var(--color-white);
 }
 
-
-
 .mainContent {
     flex: 0 0 50%;
     max-width: 800px;
     margin: auto;
 }
 
-#xProjects {
+#projects {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
 .project {
-    background: var(--color-white);
-    color: var(--color-black);
-    outline: 3px solid var(--color-red);
-    padding: 20px;
-
     --sep-margin: 10px;
-
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+    animation-delay: calc(var(--index) * 1000ms);
     h3 {
+        padding: 10px;
+        padding-left: 20px;
         margin-top: 0px;
         margin-bottom: calc(var(--sep-margin) + 5px);
-        color: var(--color-black)
+        color: var(--color-white);
+        background-color: var(--color-red);
     }
- 
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .project {
+        animation: none;
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.project-content {
+    background: var(--color-white);
+    padding: 20px;
+    color: var(--color-black);
+
+    --sep-margin: 10px;
+    
     p {
         margin-top: 0;
         margin-bottom: var(--sep-margin);
@@ -88,10 +115,10 @@ a {
         background: var(--color-red);
         transform: scale(1.05);
     }
-
 }
 
-.xTags {  
+
+.tags {  
     display: flex;
     flex-wrap: wrap;
 }

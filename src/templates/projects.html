@@ -1,0 +1,24 @@
+<div id="projects">
+    {% for project in projects %}
+
+    <div class="project" style="--index: {{ loop.index0 }}">
+        
+        <h3>{{project.name}}</h3>
+    
+        <div class="project-content">
+            <p>{{project.description}}</p>
+            
+            {% if project.demo != "" %}
+                <a href={{ project.demo }}>Demo</a>
+            {% endif %}
+
+            <div class="tags">
+                {% for tag in project.tags %}
+                    <div class="tag">{{tag}}</div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    {% endfor %}
+</div>
