@@ -44,6 +44,7 @@ a {
     color: var(--color-white);
 }
 
+
 .mainContent {
     flex: 0 0 50%;
     max-width: 800px;
@@ -88,7 +89,7 @@ a {
     }
 }
 
-.project-content {
+.projectContent {
     background: var(--color-white);
     padding: 20px;
     color: var(--color-black);
@@ -136,4 +137,20 @@ a {
     
     outline: 2px solid var(--color-blue);
     outline-offset: -8px;
+}
+
+.animatedBG {
+    background-image: url("../../assets/image1.jpg");
+    background-repeat: repeat-x repeat-y;
+    background-size: auto;
+    animation: slide-bg 120s linear infinite;
+}
+
+@keyframes slide-bg {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -1920px 0;
+    }
 }
