@@ -16,6 +16,7 @@ body {
     background-repeat: repeat-x repeat-y;
     background-size: auto;
     animation: slide-bg 120s linear infinite;
+    margin-bottom: 100px;
 }
 
 header {
