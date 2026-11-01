@@ -3,18 +3,21 @@
         "name" : "Environment Monitor System",
         "description" : "Environment monitoring of carbon dioxide, temperature, and humidity in room and record trends in environment.",
         "tags" : ["C","Kotlin","ESPIDF","ESP32","Android"],
-        "demo" : ""
+        "demo" : "",
+        "repository" : "https://github.com/tranqnhan/ENVIRONMENT-MONITOR-ESP32"
     },
     {
         "name" : "Procedural Generation Tile Constraints",
         "description" : "Procedural generation implementation using constraints based on Model Synthesis by Paul Merrell and Wave Function Collapse by Maxim Gumin.",
         "tags" : ["C++","Raylib","WASM","Emscripten","Multithreading"],
-        "demo" : "https://pgtc.tranhqnhan.org"
+        "demo" : "https://pgtc.tranhqnhan.org",
+        "repository" : ""
     },
     {
         "name" : "Quadtree A*",
         "description" : "Finding a pathfinding solution on large grids by building quadtree, building graph, and A* search.",
         "tags" : ["C++","Raylib","WASM","Emscripten"],
-        "demo" : "https://qtas.tranhqnhan.org"
+        "demo" : "https://qtas.tranhqnhan.org",
+        "repository" : ""
     }
 ]

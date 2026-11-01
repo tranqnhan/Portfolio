@@ -6,7 +6,8 @@ struct Project {
     name: String,
     description: String,
     tags: Vec<String>,
-    demo: String
+    demo: String,
+    repository: String
 }
 
 

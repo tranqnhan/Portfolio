@@ -8,10 +8,16 @@
         <div class="projectContent">
             <p>{{project.description}}</p>
             
-            {% if project.demo != "" %}
-                <a href={{ project.demo }}>Demo</a>
-            {% endif %}
-
+            <div style="display:flex; flex-direction: row; gap: 20px;">
+                {% if project.demo != "" %}
+                    <a href={{ project.demo }}>Demo</a>
+                {% endif %}
+                
+                {% if project.repository != "" %}
+                    <a href={{ project.repository }}>Repo</a>
+                {% endif %}
+            </div>
+           
             <div class="tags">
                 {% for tag in project.tags %}
                     <div class="tag">{{tag}}</div>
