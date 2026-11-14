@@ -11,13 +11,22 @@ body {
     line-height: 1.6;
     background: var(--color-black);
     color: var(--color-white);
-
-    background-image: url("../../assets/image1.jpg");
-    background-repeat: repeat-x repeat-y;
-    background-size: auto;
-    animation: slide-bg 120s linear infinite;
     margin-bottom: 100px;
 }
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url("../../assets/image1.jpg");
+    background-size: auto;
+    background-repeat: repeat;
+    animation: slide-bg 120s linear infinite;
+    opacity: 0.4;
+    z-index: -1;
+    pointer-events: none;
+}
+
 
 header {
     color: var(--color-white);
@@ -46,7 +55,7 @@ header {
         flex-direction: row;
         justify-content: flex-end;
         align-items: center;
-        padding: 20px;
+        padding: 15px;
 
 
         
