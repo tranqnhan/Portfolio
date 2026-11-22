@@ -9,7 +9,7 @@
     {
         "name" : "Environment Monitor Android App",
         "description" : "An android app that provision data to environment monitor device and display environment data.",
-        "tags" : ["Kotlin","Retrofit"],
+        "tags" : ["Android","Kotlin","Retrofit"],
         "demo" : "",
         "repository" : "https://github.com/tranqnhan/ENVIRONMENT-MONITOR-ANDROID"
     },
