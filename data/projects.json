@@ -2,7 +2,7 @@
     {
         "name" : "Environment Monitor Device",
         "description" : "Environment monitoring of carbon dioxide, temperature, and humidity in room and record trends in environment.",
-        "tags" : ["C","ESPIDF","ESP32"],
+        "tags" : ["C","ESPIDF","ESP32","FreeRTOS","Embedded Systems"],
         "demo" : "",
         "repository" : "https://github.com/tranqnhan/ENVIRONMENT-MONITOR-ESP32"
     },        
