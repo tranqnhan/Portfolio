@@ -9,14 +9,14 @@
     {
         "name" : "Environment Monitor Android App",
         "description" : "An android app that provision data to environment monitor device and display environment data.",
-        "tags" : ["Android","Kotlin","Retrofit"],
+        "tags" : ["Android","Kotlin","Retrofit","REST API"],
         "demo" : "",
         "repository" : "https://github.com/tranqnhan/ENVIRONMENT-MONITOR-ANDROID"
     },
     {
         "name" : "Environment Monitor Server",
         "description" : "Self-hosted private server that collect data from environment monitor device and stores it in a PostgreSQL database. Supports multiple environment monitor devices.",
-        "tags" : ["Java","Spring Boot", "PostgreSQL"],
+        "tags" : ["Java","Spring Boot", "PostgreSQL","REST API"],
         "demo" : "",
         "repository" : "https://github.com/tranqnhan/ENVIRONMENT-MONITOR-SERVER"
     },
